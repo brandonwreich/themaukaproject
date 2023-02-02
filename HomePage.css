@@ -1,5 +1,18 @@
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+.flex-title {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.flex-headers {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
     background-color: seashell;
 }
 
@@ -15,4 +28,10 @@ html {
 #PageTitle {
     text-align: center;
     font-size: 60px;
+    align-self: center;
+}
+
+.flex-container {
+    display: flex;
+    background-color: aqua;
 }
