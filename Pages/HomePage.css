@@ -20,6 +20,10 @@ html {
     color: white;
 }
 
+.flex-headers::after{
+    color: white;
+}
+
 #HomePageHeader {
     background-color: black;
     color: white;
