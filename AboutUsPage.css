@@ -15,7 +15,7 @@ html {
     justify-content: space-evenly;
 }
 
-#HomePageHeader {
+#AboutUsHeader {
     background-color: black;
     color: white;
 }
@@ -33,9 +33,4 @@ html {
     text-align: center;
     font-size: 60px;
     align-self: center;
-}
-
-.flex-container {
-    display: flex;
-    background-color: aqua;
 }
