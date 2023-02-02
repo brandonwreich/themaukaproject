@@ -3,7 +3,6 @@ html {
     background-color: seashell;
 }
 
-
 #Logo {
     float: left;
     width:300px;
@@ -16,5 +15,4 @@ html {
 #PageTitle {
     text-align: center;
     font-size: 60px;
-    
 }
