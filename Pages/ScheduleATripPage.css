@@ -15,6 +15,11 @@ html {
     justify-content: space-evenly;
 }
 
+.flex-headers::selection {
+    background-color: black;
+    color: white;
+}
+
 #ScheduleHeader {
     background-color: black;
     color: white;
