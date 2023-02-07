@@ -41,3 +41,21 @@ html {
     background-color: black;
     color: white;
 }
+
+#BrandonThumbs {
+    margin: 50px;
+    float: right;
+    width: 300px;
+    height: 450px;
+}
+
+body > h2 {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
