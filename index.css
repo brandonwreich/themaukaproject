@@ -9,6 +9,14 @@ html {
     align-items: center;
 }
 
+img {
+    width: 500px;
+    height: 500px;
+}
+
 button {
-    width: 100px;
+    width: 200px;
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
