@@ -3,6 +3,17 @@ html {
     background-color: seashell;
 }
 
+h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .flex-title {
     display: flex;
     flex-flow: row;
