@@ -42,12 +42,14 @@ html {
     color: white;
 }
 
-Table {
+
+table {
     align-self: center;
     border: 1px solid black;
     text-align: center;
-    width: 100%;
+    width: 90%;
     table-layout: fixed;
+    margin: 50px;
 }
 
 th {

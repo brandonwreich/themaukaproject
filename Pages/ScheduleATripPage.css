@@ -9,6 +9,21 @@ html {
     justify-content: center;
 }
 
+#Logo {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#PageTitle {
+    text-align: center;
+    font-size: 60px;
+    align-self: center;
+}
+
 .flex-headers {
     margin: 10px;
     display: flex;
@@ -25,19 +40,4 @@ html {
 #ScheduleButton {
     background-color: black;
     color: white;
-}
-
-#Logo {
-    float: left;
-    width: 300px;
-    height: 300px;
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#PageTitle {
-    text-align: center;
-    font-size: 60px;
-    align-self: center;
 }
