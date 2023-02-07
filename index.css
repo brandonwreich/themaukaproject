@@ -1,0 +1,14 @@
+html {
+    background-color: seashell;
+}
+ 
+.welcome-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ button {
+    width: 100px;
+ }
