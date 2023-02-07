@@ -9,22 +9,6 @@ html {
     justify-content: center;
 }
 
-.flex-headers {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
-}
-
-.flex-headers::selection {
-    background-color: black;
-    color: white;
-}
-
-#AboutUsHeader {
-    background-color: black;
-    color: white;
-}
-
 #Logo {
     float: left;
     width:300px;
@@ -38,4 +22,22 @@ html {
     text-align: center;
     font-size: 60px;
     align-self: center;
+}
+
+.flex-headers {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-button {
+    background-color: white;
+    font-size: 30px;
+    width: 25%;
+    cursor: pointer;
+}
+
+#AboutButton {
+    background-color: black;
+    color: white;
 }

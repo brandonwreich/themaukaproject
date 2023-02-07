@@ -10,17 +10,19 @@ html {
 }
 
 .flex-headers {
+    margin: 10px;
     display: flex;
-    flex-flow: row;
     justify-content: space-evenly;
 }
 
-.flex-headers::selection {
-    background-color: black;
-    color: white;
+.nav-button {
+    background-color: white;
+    font-size: 30px;
+    width: 25%;
+    cursor: pointer;
 }
 
-#ScheduleTripHeader {
+#ScheduleButton {
     background-color: black;
     color: white;
 }

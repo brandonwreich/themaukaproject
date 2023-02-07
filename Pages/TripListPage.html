@@ -3,7 +3,7 @@
     <head>
         <title>About Us</title>
     </head>
-    <body>
+    <header>
         <div class="flex-title">
             <link rel="stylesheet" href="TripListPage.css">
             <img id="Logo" src="../Media/Logo.jpeg" alt="The Mauka Project Logo">
@@ -11,19 +11,34 @@
         </div>
         <hr>
         <div class="flex-headers">
-            <h2 id="HomePageHeader">
-                <a href="HomePage.html">Home Page</a>
-            </h2>
-            <h2 id="TripListHeader">
-                <a href="TripListPage.html">Trip List</a>
-            </h2>
-            <h2 id="AboutUsHeader">
-                <a href="AboutUsPage.html">About us</a>
-            </h2>
-            <h2 id="ScheduleTripHeader">
-                <a href="ScheduleATripPage.html">Schedule a trip</a>
-            </h2>
+            <button class="nav-button" id="HomeButton" type=button onclick="location.href='HomePage.html'">Home Page</button>
+            <button class="nav-button" id="TripButton" type=button onclick="location.href='TripListPage.html'">Trip List</button>
+            <button class="nav-button" id="ScheduleButton" type=button onclick="location.href='ScheduleATripPage.html'">Schedule A Trip</button>
+            <button class="nav-button" id="AboutButton" type=button onclick="location.href='AboutUsPage.html'">About Us</button>
         </div>
     </header>
+    <body>
+        <table id="list-table">
+            <tr>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Activites</th>
+            </tr>
+            <tr>
+                <td>Febuary 17th-20th</td>
+                <td>Joshua Tree National Park, Utah</td>
+                <td>Camping, Climbing, Hiking, Shooting</td>
+            </tr>
+            <tr>
+                <td>Febuary 24th-26th</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+            <tr>
+                <td>March 6th-10th</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+        </table>
     </body>
 </html>
