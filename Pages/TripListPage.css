@@ -41,7 +41,6 @@ html {
     color: white;
 }
 
-
 table {
     align-self: center;
     border: 1px solid black;
@@ -63,4 +62,15 @@ td {
     margin: 0px;
     padding: 5px;
     border: 1px solid black;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
+    margin-left: 50px;
+    margin-right: 50px;
 }
