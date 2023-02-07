@@ -20,7 +20,7 @@ html {
 #PageTitle {
     text-align: center;
     font-size: 60px;
-    align-content: center;
+    align-self: center;
 }
 
 .flex-headers {
