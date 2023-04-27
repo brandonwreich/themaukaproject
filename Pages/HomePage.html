@@ -7,34 +7,49 @@
 
 <body>
     <!--Title and Navigation Buttons-->
-    <header>
-        <div class="flex-title">
-            <link rel="stylesheet" href="HomePage.css">
-            <img id="Logo" src="../Media/Mauka.svg" alt="Company Logo">
-            <h1 id="PageTitle">The Mauka Project</h1>
+    <div id="home-grid">
+        <div class="header">
+            <div class="flex-title">
+                <link rel="stylesheet" href="HomePage.css">
+                <img id="Logo" src="../Media/Mauka.svg" alt="Company Logo">
+                <h1 id="PageTitle">The Mauka Project</h1>
+            </div>
+            <div class="flex-headers">
+                <button class="nav-button" id="HomeButton" type=button onclick="location.href='HomePage.html'">Home
+                    Page</button>
+                <button class="nav-button" id="TripButton" type=button onclick="location.href='TripListPage.html'">Trip
+                    List</button>
+                <button class="nav-button" id="ScheduleButton" type=button
+                    onclick="location.href='ScheduleATripPage.html'">Schedule A Trip</button>
+                <button class="nav-button" id="AboutButton" type=button onclick="location.href='AboutUsPage.html'">About
+                    Us</button>
+            </div>
         </div>
-        <div class="flex-headers">
-            <button class="nav-button" id="HomeButton" type=button onclick="location.href='HomePage.html'">Home
-                Page</button>
-            <button class="nav-button" id="TripButton" type=button onclick="location.href='TripListPage.html'">Trip
-                List</button>
-            <button class="nav-button" id="ScheduleButton" type=button
-                onclick="location.href='ScheduleATripPage.html'">Schedule A Trip</button>
-            <button class="nav-button" id="AboutButton" type=button onclick="location.href='AboutUsPage.html'">About
-                Us</button>
+        <!--Home-->
+        <div class="home-right">
+            <h4>Helpful links</h4>
+            <ul>
+                <li><a href="https://www.nps.gov/index.htm" target="_blank">National Park Service</a></li>
+                <li><a href="https://www.steepandcheap.com/" target="_blank">Find cheap gear here</a></li>
+            </ul>
         </div>
-    </header>
-    <main>
-        <!--Our Mission Statement-->
-        <h2>Our Mission</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-            deserunt mollit anim id est laborum.
-        </p>
-    </main>
-</body>
+            
+        <div class="home-main">
+            <h2>Our Mission</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+        </div>
 
-</html>
+        <div class="footer">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>Email: <a href=mailto: trips@maukaproject.com>trips@maukaproject.com</a></li>
+                <li>Phone: <a href=tel: +18013579780>(801) 357-9780</a></li>
+            </ul>
+        </div>
+    </div>

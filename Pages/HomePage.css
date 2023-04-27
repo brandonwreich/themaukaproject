@@ -56,3 +56,38 @@ p {
     display: flex;
     background-color: aqua;
 }
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr auto;
+    gap: 5px;
+}
+
+.header {
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+.home-right {
+    grid-column: 4/5;
+    grid-row: 2/5;
+}
+
+.home-right > h4 {
+    text-align: center;
+}
+
+.home-right > ul {
+    align-content: center;
+}
+
+.home-main {
+    grid-column: 1/4;
+    grid-row: 2/5;
+}
+
+.footer {
+    grid-column: 1/5;
+    grid-row: 5/6;
+}
