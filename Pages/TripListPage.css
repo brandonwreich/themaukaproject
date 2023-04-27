@@ -70,6 +70,7 @@ table {
     table-layout: fixed;
     margin: 50px;
     border-spacing: 0px;
+    border-radius: 5px;
 }
 
 th {

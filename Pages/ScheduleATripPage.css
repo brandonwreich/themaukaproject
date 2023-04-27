@@ -60,3 +60,14 @@ html {
 .schedule-main > h2 {
     text-align: center;
 }
+
+form {
+    background-color: white;
+    display: none;
+}
+
+form > label, input {
+    size: 20px;
+    width: 300px;
+    height: 25px;
+}
