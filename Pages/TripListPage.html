@@ -6,81 +6,122 @@
 </head>
 
 <body>
-    <!--Title and Navigation Buttons-->
-    <header>
-        <div class="flex-title">
-            <link rel="stylesheet" href="TripListPage.css">
-            <img id="Logo" src="../Media/Mauka.svg" alt="Company Logo">
-            <h1 id="PageTitle">The Mauka Project</h1>
+    <div class="grid-container">
+        <!--Title and Navigation Buttons-->
+        <div class="header">
+            <div class="flex-title">
+                <link rel="stylesheet" href="TripListPage.css">
+                <img id="Logo" src="../Media/Mauka.svg" alt="Company Logo">
+                <h1 id="PageTitle">The Mauka Project</h1>
+            </div>
+            <div class="flex-headers">
+                <button class="nav-button" id="HomeButton" type=button onclick="location.href='HomePage.html'">Home
+                    Page</button>
+                <button class="nav-button" id="TripButton" type=button onclick="location.href='TripListPage.html'">Trip
+                    List</button>
+                <button class="nav-button" id="ScheduleButton" type=button
+                    onclick="location.href='ScheduleATripPage.html'">Schedule A Trip</button>
+                <button class="nav-button" id="AboutButton" type=button onclick="location.href='AboutUsPage.html'">About
+                    Us</button>
+            </div>
         </div>
-        <div class="flex-headers">
-            <button class="nav-button" id="HomeButton" type=button onclick="location.href='HomePage.html'">Home
-                Page</button>
-            <button class="nav-button" id="TripButton" type=button onclick="location.href='TripListPage.html'">Trip
-                List</button>
-            <button class="nav-button" id="ScheduleButton" type=button
-                onclick="location.href='ScheduleATripPage.html'">Schedule A Trip</button>
-            <button class="nav-button" id="AboutButton" type=button onclick="location.href='AboutUsPage.html'">About
-                Us</button>
+        <div class="trip-table">
+            <table id="list-table">
+                <tr>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Activites</th>
+                </tr>
+                <tr>
+                    <td>Febuary 17th-20th</td>
+                    <td>Joshua Tree National Park, Utah</td>
+                    <td>Camping, Climbing, Hiking</td>
+                </tr>
+                <tr>
+                    <td>March 5th-8th</td>
+                    <td>Goblin Valley</td>
+                    <td>Camping, Hiking</td>
+                </tr>
+                <tr>
+                    <td>March 31st-April 9th</td>
+                    <td>Beliz, Costa Maya, Cozemuel</td>
+                    <td>Hiking, Zip lining, Cave exploring</td>
+                </tr>
+                <tr>
+                    <td>April 21st-23rd</td>
+                    <td>Goblin Valley</td>
+                    <td>Camping, Hiking, Star gazing</td>
+                </tr>
+                <tr>
+                    <td>May 5th-8th</td>
+                    <td>West Desert</td>
+                    <td>Climbing, Camping, Hiking</td>
+                </tr>
+                <tr>
+                    <td>May 13th</td>
+                    <td>Amereican Fork Canyon</td>
+                    <td>Climbing</td>
+                </tr>
+                <tr>
+                    <td>May 20th</td>
+                    <td>Big Cottonwood Canyon</td>
+                    <td>Climbing</td>
+                </tr>
+                <tr>
+                    <td>May 22nd-26th</td>
+                    <td>Glacier National Park</td>
+                    <td>Camping, Hiking</td>
+                </tr>
+                <tr>
+                    <td>May 27th</td>
+                    <td>Little Cottonwood Canyon</td>
+                    <td>Climbing</td>
+                </tr>
+                <tr>
+                    <td>June 2nd-5th</td>
+                    <td>Coyote Gulch</td>
+                    <td>Backpacking</td>
+                </tr>
+                <tr>
+                    <td>June 10th</td>
+                    <td>Ogden Canyon</td>
+                    <td>Climbing</td>
+                </tr>
+                <tr>
+                    <td>June 15th-25th</td>
+                    <td>Lake Alomanor</td>
+                    <td>Climbing, Camping, Hiking</td>
+                </tr>
+                <tr>
+                    <td>July 1st</td>
+                    <td>Milcreek Canyon</td>
+                    <td>Climbing</td>
+                </tr>
+            </table>
         </div>
-    </header>
-    <main>
-        <!--Trip Schedule-->
-        <table id="list-table">
-            <tr>
-                <th>Date</th>
-                <th>Location</th>
-                <th>Activites</th>
-            </tr>
-            <tr>
-                <td>Febuary 17th-20th</td>
-                <td>Joshua Tree National Park, Utah</td>
-                <td>Camping, Climbing, Hiking</td>
-            </tr>
-            
-            <tr>
-                <td>March 5th-8th</td>
-                <td>Goblin Valley</td>
-                <td>Camping, Hiking</td>
-            </tr>
-            <tr>
-                <td>March 31st-April 9th</td>
-                <td>Beliz, Costa Maya, Cozemuel</td>
-                <td>Hiking, Zip lining, Cave exploring</td>
-            </tr>
-            <tr>
-                <td>April 21st-23rd</td>
-                <td>Goblin Valley</td>
-                <td>Camping, Hiking, Star gazing</td>
-            </tr>
-            <tr>
-                <td>May 5th-8th</td>
-                <td>West Desert</td>
-                <td>Climbing, Camping, Hiking</td>
-            </tr>
-        </table>
-        <br>
         <!--Potential Trips-->
-        <h2>Potential Trips</h2>
-        <ul>
-            <li>Leprechaun Canyon (Canyoneering)</li>
-            <li><del>Goblin Valley (Hiking)</del></li>
-            <li>The Valley of Zion (Climbing)</li>
-            <li>Eardly Canyon (Canyoneering)</li>
-            <li>Coyote Gulch (Hiking)</li>
-            <li>City of Rocks (Climbing)</li>
-            <li>Subway (Canyoneering)</li>
-            <li>The Wave (Hiking)</li>
-            <li>Kings Peak (Backpacking)</li>
-            <li>Amythst Pass (Backpacking)</li>
-            <li>Zions (Hiking)</li>
-            <li>Canyonlands (Hiking)</li>
-            <li>The Pipe Dream (Climbing)</li>
-            <li>Maple Canyon (Climbing)</li>
-            <li>West Desert (Climbing)</li>
-            <li>Tetons (Hiking)</li>
-        </ul>
-    </main>
+        <div id="trip-list">
+            <h2>Potential Trips</h2>
+            <ul>
+                <li>Leprechaun Canyon (Canyoneering)</li>
+                <li><del>Goblin Valley (Hiking)</del></li>
+                <li>The Valley of Zion (Climbing)</li>
+                <li>Eardly Canyon (Canyoneering)</li>
+                <li>Coyote Gulch (Hiking)</li>
+                <li>City of Rocks (Climbing)</li>
+                <li>Subway (Canyoneering)</li>
+                <li>The Wave (Hiking)</li>
+                <li>Kings Peak (Backpacking)</li>
+                <li>Amythst Pass (Backpacking)</li>
+                <li>Zions (Hiking)</li>
+                <li>Canyonlands (Hiking)</li>
+                <li>The Pipe Dream (Climbing)</li>
+                <li>Maple Canyon (Climbing)</li>
+                <li>West Desert (Climbing)</li>
+                <li>Tetons (Hiking)</li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
