@@ -44,7 +44,8 @@ html {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;
 }
 
 .header {
@@ -54,12 +55,18 @@ html {
 
 .trip-table {
     grid-column: 1/4;
-    grid-row: 2/6;
+    grid-row: 2/3;
 }
 
 .trip-list {
     grid-column: 4/5;
-    grid-row: 2/6;
+    grid-row: 2/3;
+}
+
+.footer {
+    grid-template-columns: 1/5;
+    grid-row: 3/4;
+    text-align: center;
 }
 
 table {
