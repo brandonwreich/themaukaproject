@@ -108,3 +108,7 @@ input[type=text], input[type=email], select {
     background-color: black;
     color: white;
  }
+
+ textarea {
+    width: 90%;
+ }
