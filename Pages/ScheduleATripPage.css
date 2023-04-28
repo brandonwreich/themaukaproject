@@ -54,20 +54,57 @@ html {
 
 .schedule-main {
     grid-column: 1/5;
-    grid-row: 2/3;
-}
-
-.schedule-main > h2 {
-    text-align: center;
+    grid-row: 2/6;
 }
 
 form {
+    margin-left: 25%;
+    width: 50%;
     background-color: white;
-    display: none;
+    padding: 10px;
 }
 
-form > label, input {
-    size: 20px;
-    width: 300px;
-    height: 25px;
+form > h3 {
+    text-align: center;
 }
+
+.text-label {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 8px;
+    font: 14pt sans-serif;
+ }
+
+ .button-label {
+    width: 50px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 40px;
+    font: 14pt sans-serif;
+ }
+
+input[type=text], input[type=email], select {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+ }
+
+ input[type=submit] {
+    width: 200px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    
+ }
+
+ input[type=submit]:hover {
+    background-color: black;
+    color: white;
+ }

@@ -26,15 +26,53 @@
             </div>
         </div>
         <div class="schedule-main">
-            <h2>PAGE COMING SOON!</h2>
             <form>
-                <h3>Contact Information</h3>
-                <label for="fname">First Name:</label><br>
+                <h3>-----Contact Information-----</h3>
+                <label for="fname" class="text-label">First Name:</label>
                 <input type="text" id="fname" name="fname" required><br>
-                <label for="lname">Last Name:</label><br>
+                <label for="lname" class="text-label">Last Name:</label>
                 <input type="text" id="lname" name="lname" required><br>
-                <label for="email">Email:</label><br>
+
+                <h4>What is your preferred contact method?</h4>
+                <input type="radio" id="rtext" name="contact-method" value="text">
+                <label for="rtext" class="button-label">Text</label>
+                
+                <input type="radio" id="rcall" name="contact-method" value="call">
+                <label for="rcall" class="button-label">Call</label>
+                
+                <input type="radio" id="remail" name="contact-method" value="email">
+                <label for="remail" class="button-label">Email</label><br><br>
+
+                <label for="email" class="text-label">Email:</label>
                 <input type="email" id="email" name="email" required><br>
+
+                <label for="phone" class="text-label">Cell Number:</label>
+                <input type="text" id="phone" name="phone">
+
+                <h3>-----Trip Information-----</h3>
+                <p>What kind of excusion would you like to schedule? (Select all that apply)</p>
+                <input type="checkbox" id="camping-check" name="trip-type" value="camping">
+                <label for="camping-check" class="button-label">Camping</label>
+
+                <input type="checkbox" id="hike-check" name="trip-type" value="hiking">
+                <label for="hike-check" class="button-label">Hike</label>
+
+                <input type="checkbox" id="canyoneering-check" name="trip-type" value="canyoneering">
+                <label for="canyoneering-check" class="button-label">Canyoneering</label><br>
+
+                <input type="checkbox" id="climbing-check" name="trip-type" value="climbing">
+                <label for="climbing-check" class="button-label">Climbing</label>
+
+                <input type="checkbox" id="other-check" name="trip-type" value="other">
+                <label for="other-check" class="button-label">Other</label>
+
+                <p>If selected other, please specify here:</p>
+                <textarea rows="10" cols="100"></textarea>
+
+                <p>If you have any other comments please express them below:</p>
+                <textarea rows="10" cols="100"></textarea><br>
+
+                <input type="submit" id="submit" name="submit">
             </form>
         </div>
     </div>
