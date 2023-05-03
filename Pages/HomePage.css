@@ -88,6 +88,31 @@ p {
     grid-row: 2/5;
 }
 
+div.gallery-container {
+    margin: 50px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
 .footer {
     grid-column: 1/5;
     grid-row: 5/6;
