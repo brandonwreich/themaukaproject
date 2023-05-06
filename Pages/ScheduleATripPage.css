@@ -1,8 +1,23 @@
+/* General styles */
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: seashell;
 }
 
+/* Grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr auto;
+}
+
+/* Header container */
+.header {
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+/* Header container content */
 .flex-title {
     display: flex;
     flex-flow: row;
@@ -41,22 +56,13 @@ html {
     color: white;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr auto;
-}
-
-.header {
-    grid-column: 1/5;
-    grid-row: 1/2;
-}
-
+/* Main container */
 .schedule-main {
     grid-column: 1/5;
     grid-row: 2/6;
 }
 
+/* Main container content */
 form {
     margin-left: 25%;
     width: 50%;

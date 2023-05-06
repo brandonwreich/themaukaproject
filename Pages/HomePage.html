@@ -2,19 +2,23 @@
 <html lang=en>
 
 <head>
+    <!--Tab title and icon-->
     <title>Home Page</title>
     <link rel="icon" type="image/png" href="../Media/Mauka.svg">
 </head>
 
 <body>
-    <!--Title and Navigation Buttons-->
-    <div id="home-grid">
+    <!--Grid-->
+    <div class="grid-container">
+        <!--Header-->
         <div class="header">
+            <!--Title and logo-->
             <div class="flex-title">
                 <link rel="stylesheet" href="HomePage.css" id="stylesheet">
                 <img id="Logo" src="../Media/Mauka.svg" alt="Company Logo">
                 <h1 id="PageTitle">The Mauka Project</h1>
             </div>
+            <!--Navigation buttons-->
             <div class="flex-headers">
                 <button class="nav-button" id="HomeButton" type=button onclick="location.href='HomePage.html'">Home
                     Page</button>
@@ -26,18 +30,21 @@
                     Us</button>
             </div>
         </div>
-        <!--Home-->
+        <!--Right side content holder-->
         <div class="home-right">
+            <!--Helpful links-->
             <h4>Helpful links</h4>
             <ul>
                 <li><a href="https://www.nps.gov/index.htm" target="_blank">National Park Service</a></li>
                 <li><a href="https://www.steepandcheap.com/" target="_blank">Find cheap gear here</a></li>
                 <li><a href="https://lnt.org/" target="_blank">Leave no trace</a></li>
                 <li><a href="https://survivalmedonline.org/" target="_blank">Outdoor emergency medicine</a></li>
+                <li><a href="https://www.blm.gov/" target="_blank">Bureau of Land Management</a></li>
             </ul>
         </div>
-
+        <!--Main content holder-->
         <div class="home-main">
+            <!--Mission statement-->
             <h2>Our Mission</h2>
             <p>
                 At The Mauka Project, our mission is to safely guide adventurers through remote and beautiful locations
@@ -47,25 +54,28 @@
                 respect for the natural environment. Our goal is to empower our clients to explore, grow, and discover
                 their own personal connection to the wilderness, while leaving a positive impact on the lands we visit.
             </p>
+            <!--Photos-->
             <div class="gallery-container">
+                <!--Amythyst Basin photo-->
                 <div class="gallery">
                     <a target="_blank" href="../Media/HomePagePhotos/Amythyst.JPG">
                         <img src="../Media/HomePagePhotos/Amythyst.JPG" alt="The Basin" width="600" height="400">
                     </a>
                 </div>
-
+                <!--Green River photo-->
                 <div class="gallery">
                     <a target="_blank" href="../Media/HomePagePhotos/Green-River.jpg">
-                        <img src="../Media/HomePagePhotos/Green-River.jpg" alt="Canoe on the river" width="600" height="400">
+                        <img src="../Media/HomePagePhotos/Green-River.jpg" alt="Canoe on the river" width="600"
+                            height="400">
                     </a>
                 </div>
-
+                <!--Tetons photo-->
                 <div class="gallery">
                     <a target="_blank" href="../Media/HomePagePhotos/Tetons.jpg">
                         <img src="../Media/HomePagePhotos/Tetons.jpg" alt="Tetons" width="600" height="400">
                     </a>
                 </div>
-
+                <!--Canyoneering photo-->
                 <div class="gallery">
                     <a target="_blank" href="../Media/HomePagePhotos/B-Canyon.jpg">
                         <img src="../Media/HomePagePhotos/B-Canyon.jpg" alt="Canyoneering" width="600" height="400">
@@ -73,7 +83,7 @@
                 </div>
             </div>
         </div>
-
+        <!--Footer-->
         <div class="footer">
             <h2>Contact Us</h2>
             <ul>
@@ -81,3 +91,6 @@
             </ul>
         </div>
     </div>
+</body>
+
+</html>
